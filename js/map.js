@@ -94,7 +94,7 @@ locations.forEach(location => {
     const content = `
         <div class="map-popup-content">
             <h3 class="map-popup-title">${location.name}</h3>
-            <img src="${location.imageUrl}" class="map-popup-img" alt="${location.name}">
+            <img src="${location.imageUrl}" class="map-popup-img" alt="${location.name}" title="${location.name}">
             <p class="map-popup-desc">${location.description}</p>
         </div>
     `;
