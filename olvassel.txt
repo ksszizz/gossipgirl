@@ -1,0 +1,49 @@
+A készítő neve: Kiss Lujza AASPJY
+A működő weboldal URL címe:
+A weboldal témájának leírása: A weboldalt kedvenc sorozatom, a "Gossip Girl" inspirálta. A filmben megjelenő weboldalt szeretném életre kelteni ami igazából egy pletykablog, filmes szereplőkkel és eseményekkel.
+A saját JavaScript kód helyének és működésének leírása: A JavaScript a map.html oldalhoz készült. Lényege egy interaktiv tékép megvalósitása, amelyen a felhasznaló egy zoomolhat a képernyőn, megtekintheti a jellegzetes helyszíneket és azok leírását. Ehhez külső forrást használtam: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+Emellett JavaScript felhasználásával készítettem alertet a gosssip.html oldalhoz
+A használt egyedi fonttípus és annak helye: https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900
+Minden felhasznált külső forrás (kódrészlet, segítség) pontos megjelölése:
+favicon: saját szerkesztés
+képek:
+ 	háttérkép: https://pin.it/ucKS2JiGR
+ 	inspiráció: https://pin.it/6gKFuxWw1
+ 	szereplok:
+ 		https://static.wikia.nocookie.net/gossipgirl/images/e/e7/DanInfobox.jpg/revision/latest?cb=20200318020644
+ 		https://gossipgirl.fandom.com/wiki/File:Blair-waldorf.jpg
+ 		https://pin.it/36lo019ia
+ 		https://pin.it/7LDveMznp
+ 		https://pin.it/4cZ8m65Ds
+ 		https://pin.it/bTNl5Gfaz
+ 		https://pin.it/3aSp5yVbs
+ 		https://static.wikia.nocookie.net/gossipgirl/images/b/b8/ImageJZ.jpg/revision/latest?cb=20140518163134
+
+ 	partyk: https://screenrant.com/gossip-girl-best-parties-ranked
+
+ 		https://cache.moviestillsdb.com/i/500x/x2b7fwca/gossip-girl-lg.jpg
+ 		https://planetclaire.tv/wp-content/uploads/2010/11/gossip-girl-the-witches-of-bushwick-s04e09.jpg
+ 		https://fwmedia.fandomwire.com/wp-content/uploads/2025/09/22102848/gossip-girl.webp?width=1920&height=1080&quality=85&sharpen=true&format=webp&fit=contain
+ 		https://i.ytimg.com/vi/oQyib7Jlq5I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAlbxG1514xchRL6XsaCHURsOEUGg
+ 		https://image.tmdb.org/t/p/w780/4AIGpZFLztvERbkQxs53diuiPKT.jpg
+ 		https://pyxis.nymag.com/v1/imgs/4af/60d/2ba55a36058e6698de74b34683a2faf765-gossip-girl.2x.rhorizontal.w700.jpg
+ 		https://weekendmusing.wordpress.com/wp-content/uploads/2014/08/gg524_1437.jpg
+ 		https://i.pinimg.com/736x/d9/8d/27/d98d2786449d5ba7e7921bd52c7f798f.jpg
+ 		https://i.pinimg.com/474x/d6/07/88/d607884b2af3d8010aa491c01d06c8f9.jpg
+ 		https://media.giantfreakinrobot.com/wp-content/uploads/2019/04/gossip-girl_h27kZU-36009.jpg
+
+	térkép:
+		https://pbs.twimg.com/media/D1j4jXBWkAUu-UC.jpg
+		https://milestogo.e-monsite.com/medias/images/img-0060.jpg?fx=r_1170_600
+		https://izzyfrancesca.wordpress.com/wp-content/uploads/2017/07/101gossipgirl0378.jpg
+		https://monkeymiles.boardingarea.com/wp-content/uploads/2019/05/Lotte-New-York-Palace_9877.jpg?v=1763232026
+		https://i.pinimg.com/736x/49/a9/44/49a94416b4c9a4e2ecc9c5637a596948.jpg
+		https://pbs.twimg.com/media/EoMPv4cXIAIuqZG.jpg
+		https://www.sceen-it.com/storage/10322?fsid=10322&w=600&md5=BB6DCDF4E068B147D79B30231D9263AC
+		https://weekendmusing.wordpress.com/wp-content/uploads/2014/07/dscn6685.jpg
+		https://russiantearoomnyc.com/media_files/images/LR_edits-0002.max-1900x1900.jpg
+		https://i.pinimg.com/564x/ac/66/f4/ac66f41e3a2d2714dd3a91c09e63a03b.jpg
+		https://camillassecrets.com/wp-content/uploads/2015/09/1364313014-2936202097.jpg
+		https://www.carnetsduluxe.com/wp-content/uploads/2018/09/Henri-Bendel-min.jpg
+
+szöveg: A tartalmi szöveg AI felhasználásával készült

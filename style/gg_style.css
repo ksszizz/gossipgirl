@@ -26,10 +26,7 @@ header {
   padding: 16px;
 }
 
-article,
-.gossip-girl-feed,
-.post-container,
-.party-kontainer {
+article,.gossip-girl-feed,.post-container,.party-kontainer {
   width: 100%;
 }
 
@@ -54,7 +51,7 @@ div {
   font-size: 2.2em;
 }
 
-.left-panel {
+.nav-panel {
   background-color: rgba(20, 20, 20, 0.85);
   padding: 14px;
   border-radius: 10px;
@@ -243,6 +240,17 @@ img.party {
   position: absolute;
   right: 12px;
   bottom: 12px;
+}
+
+.form-link {
+  color: rgba(216, 206, 145);
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.form-link:hover {
+  color: white;
 }
 
 .xoxo {
@@ -465,8 +473,8 @@ img.party {
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: rgba(216, 206, 145, 0.5);
-  font-style: italic;
+  color: black;
+  opacity: 1;
 }
 
 .form-group textarea {
@@ -523,12 +531,27 @@ img.party {
   font-weight: 600;
 }
 
+.required {
+  color: #de3163;
+  font-weight: bold;
+  margin-left: 2px;
+}
 
 .error-msg {
   color: #de3163;
   font-size: 0.85rem;
   margin-top: 4px;
   font-style: italic;
+  display: none;
+}
+
+.error-msg.show {
+  display: block;
+}
+
+.input-error {
+  border-color: #de3163 !important;
+  background: rgba(222, 49, 99, 0.1);
 }
 
 #fullForm button[type="submit"] {
@@ -606,7 +629,7 @@ img.party {
     margin-left: 340px;
   }
 
-  .left-panel {
+  .nav-panel {
     position: fixed;
     top: 100px;
     left: 20px;

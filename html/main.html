@@ -11,7 +11,7 @@
 <body>
 <header><div class="felirat"><h1>gossip girl</h1></div></header>
 
-<nav class="left-panel">
+<nav class="nav-panel">
   <ul class="menu">
     <li><a href="main.html" id="aktiv">welcome</a><br><small>to the site ABOUT the Upper East Side, FOR the Upper East Side and BY the Upper East Side!</small></li>
     <li><a href="gossip.html">gossip</a><br><small>The latest "411" on all the in people.</small></li>
@@ -24,7 +24,7 @@
 <main class="container">
   <article class="post">
     <h2>Hello, Upper East Siders!</h2>
-    <p>Gossip Girl here — your one and only source into the scandalous lives of Manhattan's elite. The champagne's cold, the secrets are colder, and the city's most powerful players are already making their moves. Whether you're sipping lattes on the Met steps or hiding sins behind designer shades, remember: nothing stays secret for long. Not here. Not with me watching. Stay glamorous, stay dangerous, and never forget — you're only as good as your latest rumor.Missed a blast? Or just want to chat about the latest drama? Drop me a message in the ask box!</p><br>
+    <p>Gossip Girl here — your one and only source into the scandalous lives of Manhattan's elite. The champagne's cold, the secrets are colder, and the city's most powerful players are already making their moves. Whether you're sipping lattes on the Met steps or hiding sins behind designer shades, remember: nothing stays secret for long. Not here. Not with me watching. Stay glamorous, stay dangerous, and never forget — you're only as good as your latest rumor. Got a secret you're dying to share? <a href="#fullForm" class="form-link">Drop your tip here</a> and watch it become the talk of the town!</p><br>
     <span class="signature">You know you love me...<br>XOXO, Gossip Girl</span>
   </article>
 </main>
@@ -37,20 +37,27 @@
         <input type="hidden" name="submission_id" value="GG_TIP_2025">
 
         <div class="form-group">
-            <label for="scandal">Spotted: What's the Scandal?</label>
-            <input type="text" id="scandal" name="scandal" placeholder="Spill the secret you're dying to leak." required>
+            <label for="scandal">Spotted: What's the Scandal? <span class="required">*</span></label>
+            <input type="text" id="scandal" name="scandal" placeholder="Spill the secret you're dying to leak." required minlength="10">
             <div id="error-scandal" class="error-msg"></div>
         </div>
 
         <div class="form-group">
-            <label for="who">Who's Caught in the Drama?</label>
-            <input type="text" id="who" name="who" placeholder="Names, nicknames, or keep it cryptic." required>
+            <label for="who">Who's Caught in the Drama? <span class="required">*</span></label>
+            <input type="text" id="who" name="who" placeholder="Names, nicknames, or keep it cryptic." required minlength="2">
             <div id="error-who" class="error-msg"></div>
         </div>
 
         <div class="form-group">
-            <label for="details">The Juicy Details</label>
-            <textarea id="details" name="details" rows="6" placeholder="Tell Gossip Girl exactly what went down." required></textarea>
+            <label for="email">Your Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            <small>Gossip Girl needs a way to reach you.</small>
+            <div id="error-email" class="error-msg"></div>
+        </div>
+
+        <div class="form-group">
+            <label for="details">The Juicy Details <span class="required">*</span></label>
+            <textarea id="details" name="details" rows="6" placeholder="Tell Gossip Girl exactly what went down." required minlength="20"></textarea>
             <div id="error-details" class="error-msg"></div>
         </div>
 
@@ -66,7 +73,7 @@
         </div>
 
         <div class="form-group">
-            <label for="drama_level">Drama Level</label>
+            <label for="drama_level">Drama Level <span class="required">*</span></label>
             <select id="drama_level" name="drama_level" required>
                 <option value="">Choose your scandal level...</option>
                 <option value="whisper">Barely a whisper</option>
@@ -74,6 +81,7 @@
                 <option value="scandal">Full-blown scandal</option>
                 <option value="nuclear">Nuclear gossip</option>
             </select>
+            <div id="error-drama" class="error-msg"></div>
         </div>
 
         <div class="form-group">
@@ -95,5 +103,6 @@
   <p>&copy; 2025 Kiss Lujza. All rights reserved.</p>
 </footer>
 
+<script src="../js/form-validation.js"></script>
 </body>
 </html>
