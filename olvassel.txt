@@ -1,8 +1,11 @@
 A készítő neve: Kiss Lujza AASPJY
 A működő weboldal URL címe:
 A weboldal témájának leírása: A weboldalt kedvenc sorozatom, a "Gossip Girl" inspirálta. A filmben megjelenő weboldalt szeretném életre kelteni ami igazából egy pletykablog, filmes szereplőkkel és eseményekkel.
-A saját JavaScript kód helyének és működésének leírása: A JavaScript a map.html oldalhoz készült. Lényege egy interaktiv tékép megvalósitása, amelyen a felhasznaló egy zoomolhat a képernyőn, megtekintheti a jellegzetes helyszíneket és azok leírását. Ehhez külső forrást használtam: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
-Emellett JavaScript felhasználásával készítettem alertet a gosssip.html oldalhoz
+
+A saját JavaScript kódok helye és működése:
+1. map.js (map.html oldal): Interaktív térkép megvalósítása Leaflet.js könyvtár használatával. 12 ikonikus helyszín jelölése markerekkel, amelyek hover eseményre pop-up ablakban megjelenítik a helyszín nevét, képét és leírását. A térkép zoomolható és mozgatható. Külső könyvtár: Leaflet 1.9.4 (https://unpkg.com/leaflet@1.9.4/dist/leaflet.js) - OpenStreetMap alapú interaktív térképkezelő könyvtár.
+2. gossip.js (gossip.html oldal): Fullscreen alert megjelenítése az oldal betöltésekor, amely a "Gossip Girl" stílushoz illeszkedő üdvözlő üzenettel fogadja a látogatókat. Az alert bezárható gombbal.
+3. form-validation.js (main.html oldal): Űrlap validáció 5 kötelező mezőre (scandal min. 10 karakter, who min. 2 karakter, email formátum ellenőrzés reguláris kifejezéssel, details min. 20 karakter, drama_level kiválasztás kötelező). A hibaüzenetek az input mezők alatt jelennek meg piros színnel.
 A használt egyedi fonttípus és annak helye: https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900
 Minden felhasznált külső forrás (kódrészlet, segítség) pontos megjelölése:
 favicon: saját szerkesztés

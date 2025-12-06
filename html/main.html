@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kiss Lujza">
+    <meta name="description" content="Gossip Girl - Your one and only source into the scandalous lives of Manhattan's elite">
     <title>Gossip Girl</title>
     <link rel="icon" href="../pictures/system/favicon_gg.png" type="image/png">
     <link rel="stylesheet" href="../style/gg_style.css">
@@ -32,32 +34,32 @@
 <section class="container">
     <form id="fullForm" action="" method="POST">
         <h1>Drop Your Drama Below</h1>
-        <p class="info">Gossip Girl is listening... Submit your tip and watch it become the talk of the town.</p>
+        <p class="info">Gossip Girl is listening... Submit your tip and watch it become the talk of the town.<br><small>Fields marked with an * are required. Don't leave me hanging, darling.</small></p>
         
         <input type="hidden" name="submission_id" value="GG_TIP_2025">
 
         <div class="form-group">
             <label for="scandal">Spotted: What's the Scandal? <span class="required">*</span></label>
-            <input type="text" id="scandal" name="scandal" placeholder="Spill the secret you're dying to leak." required minlength="10">
+            <input type="text" id="scandal" name="scandal" placeholder="Spill the secret you're dying to leak.">
             <div id="error-scandal" class="error-msg"></div>
         </div>
 
         <div class="form-group">
             <label for="who">Who's Caught in the Drama? <span class="required">*</span></label>
-            <input type="text" id="who" name="who" placeholder="Names, nicknames, or keep it cryptic." required minlength="2">
+            <input type="text" id="who" name="who" placeholder="Names, nicknames, or keep it cryptic.">
             <div id="error-who" class="error-msg"></div>
         </div>
 
         <div class="form-group">
             <label for="email">Your Email <span class="required">*</span></label>
-            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com">
             <small>Gossip Girl needs a way to reach you.</small>
             <div id="error-email" class="error-msg"></div>
         </div>
 
         <div class="form-group">
             <label for="details">The Juicy Details <span class="required">*</span></label>
-            <textarea id="details" name="details" rows="6" placeholder="Tell Gossip Girl exactly what went down." required minlength="20"></textarea>
+            <textarea id="details" name="details" rows="6" placeholder="Tell Gossip Girl exactly what went down."></textarea>
             <div id="error-details" class="error-msg"></div>
         </div>
 
@@ -74,7 +76,7 @@
 
         <div class="form-group">
             <label for="drama_level">Drama Level <span class="required">*</span></label>
-            <select id="drama_level" name="drama_level" required>
+            <select id="drama_level" name="drama_level">
                 <option value="">Choose your scandal level...</option>
                 <option value="whisper">Barely a whisper</option>
                 <option value="talk">Talk of the town</option>
